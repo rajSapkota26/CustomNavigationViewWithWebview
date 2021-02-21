@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NavigationDrawerNewsApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MBS NEWS</string>
+    <string name="nav_header_subtitle">From TechnoAbinash</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_york_times">SAMADHAN DAILY</string>
+    <string name="foxnews">GORKHAPATRA DAILY</string>
+    <string name="upcomming">UpComming</string>
+    <string name="skynews">GORKHAPATRA SASTHAN</string>
+    <string name="cnn">NAGARIK NEWS</string>
+    <string name="alljajera">KANTIPUR</string>
+    <string name="bbc">BBC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy_policy">privacy policy</string>
+
+
+</resources>

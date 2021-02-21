@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_bbc">
+
+    <fragment
+        android:id="@+id/nav_bbc"
+        android:name="com.technoabinash.navigationdrawernewsapp.fragments.BbcFragment"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_bbc" />
+
+    <fragment
+        android:id="@+id/nav_alje"
+        android:name="com.technoabinash.navigationdrawernewsapp.fragments.AlJazeeraFragment"
+        android:label="@string/alljajera"
+        tools:layout="@layout/aljazera_fragment" />
+
+    <fragment
+        android:id="@+id/nav_cnn"
+        android:name="com.technoabinash.navigationdrawernewsapp.fragments.CnnFragment"
+        android:label="@string/cnn"
+        tools:layout="@layout/fragment_cnn" />
+    <fragment
+        android:id="@+id/nav_skynews"
+        android:name="com.technoabinash.navigationdrawernewsapp.fragments.Sky_news_Fragment"
+        android:label="@string/skynews"
+        tools:layout="@layout/fragment_sky_news_" />
+    <fragment
+        android:id="@+id/nav_foxnews"
+        android:name="com.technoabinash.navigationdrawernewsapp.fragments.FoxnewsFragment"
+        android:label="@string/foxnews"
+        tools:layout="@layout/fragment_foxnews" />
+</navigation>
